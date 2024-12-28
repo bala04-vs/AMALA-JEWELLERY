@@ -1,0 +1,1361 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.navbar{
+   
+    display: flex;
+    justify-content: space-between;
+ 
+    
+   
+   
+   
+  
+  
+}
+
+.heading{
+   
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    position: relative;
+    left:20px;
+
+ 
+}
+
+.heading h1{
+    color: rgb(247, 246, 246);
+}
+
+ .menu{
+    position: fixed;
+    top:10px; 
+    margin-left:1300px;
+
+   
+}
+
+.svg{
+    width:20%;
+}
+
+.content{
+
+    background-color: rgba(0, 0, 0, 0.542);
+    border-radius: 50px;
+    padding: 25px;
+  
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   gap: 20px;
+
+   position: relative;
+   right:100px;
+   visibility: hidden;
+   /* transform: scale(2,2); */
+
+   transition-duration:8s;
+  
+   transition-timing-function: ease-in-out;
+  
+  
+
+}
+
+.a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: aliceblue;
+  
+}
+
+.svgbar:hover~.content{
+    visibility: visible;
+   
+}
+
+@media  screen and (min-width:0px) and (max-width:475px) {
+   
+
+    .heading{
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        position: relative;
+        left:20px;
+     
+    }
+
+
+    .menu{
+        position: fixed;
+        top:5px;
+        margin-left:250px;
+    }
+
+    
+}
+
+
+
+
+@media  screen and (min-width:375px) and (max-width:768px) {
+   
+
+    .heading{
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        position: relative;
+        top:10px;
+        left:25px;
+     
+    }
+
+
+
+    .svg{
+        width:30%;
+    }
+
+    .menu{
+        position: fixed;
+        top:5px;
+        margin-left:550px;
+    }
+
+    
+}
+
+/* nav bar end */
+
+
+.banner-item{
+    display: flex;
+    flex-direction: column;
+
+
+   
+}
+
+.banner-image{
+
+    width: 100%;
+     margin-top:-80px;
+   
+    
+
+
+}
+
+.banner-matter{
+    padding:10px ;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+    margin-top:-350px;
+
+}
+
+
+.banner-matter h1{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:50px ;
+}
+
+
+
+.banner-matter p{
+    color: aliceblue;
+    line-height: 1.5;
+    width:50%;
+    font-size: 20px;
+}
+
+
+
+.banner-matter a{
+    border: 2px solid; white;
+    border-radius: 10px;
+    padding:5px;
+    width:20%;
+    font-size:150%;
+    text-align: center;
+    color: rgb(229, 142, 142);
+    text-decoration:none;
+}
+
+
+.banner-matter a:hover{
+    background-color: rgb(239, 74, 74);
+    border-color: rgb(218, 112, 112);
+    color: white;
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:475px)
+{
+   
+
+    .banner-image{
+
+        width: 100%;
+        height:80vh;
+        margin-top:-70px;
+      
+        
+    
+    
+    }
+
+
+
+    .banner-matter{
+        padding:10px ;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    
+        margin-top:-300px;
+    
+    }
+
+    .banner-matter h1{
+        color: aliceblue;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:20px ;
+    }
+
+
+    .banner-matter p{
+        height: 2vh;
+        visibility: hidden;
+
+    }
+
+
+    .banner-matter a{
+        border: 2px solid; white;
+        border-radius: 10px;
+        padding:5px;
+        width:40%;
+        font-size:15px;
+        text-align: center;
+       
+        text-decoration:none;
+    }
+    
+    
+
+   
+
+}
+
+
+/* banner-end */
+
+/* latest products */
+
+
+.items{
+
+  
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap:10px;
+    /* justify-content: center; */
+}
+
+
+.latest-products{
+    padding: 20px;
+    position: relative;
+    top:150px;
+   
+}
+
+
+.latest-heading{
+    font-size:50px; 
+    text-align: center;
+}
+
+.div1{
+    background-color: rgba(243, 237, 237, 0.725);
+    width:25vw;
+    height: 40vh;
+    text-align: center;
+    margin: auto;
+
+   
+    
+}
+
+.div1 img{
+    
+    padding:10px;
+   width:45%;
+}
+
+
+.div1 .img2 {
+    
+    padding:10px;
+   width:25%;
+}
+
+
+.div1 .img3 {
+    
+    padding:10px;
+   width:25%;
+}
+
+
+.div1 .img7 {
+    
+    padding:10px;
+   width:12%;
+}
+
+.div1 .img8 {
+    
+    padding:10px;
+   width:20%;
+}
+
+.img9{
+    width:80%;
+}
+
+.div1 h6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 15px;
+     color: rgba(21, 23, 17, 0.903);
+    margin-bottom: 20px;
+    position: relative;
+    top:10px
+
+}
+
+h6 span{
+    color: brown;
+}
+
+
+
+
+ button{
+    width:30%;
+
+    border-radius:10px;
+    background-color: rgb(244, 236, 237);
+    border-color:white;
+    box-shadow: 10px 10px 10px  gray;
+ }
+
+
+ button:hover{
+     transform: scale(1.5,1.5);
+     transition-duration:2s ;
+ }
+
+ button .button{
+    text-decoration: none;
+    font-size:15px;
+    color: rgb(246, 35, 35);
+
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .input_view_products{
+   width:20%;
+   padding: 10px;
+    margin-top: 40px;
+   margin-left: 450px; 
+   border-radius: 50px;
+
+
+  font-size: 20px;
+   color:white;
+   background-color: rgb(243, 60, 60);
+box-shadow: 10px 10px 10px rgb(239, 168, 168);
+
+   
+ }
+ 
+
+ .input_view_products:hover{
+    transform: scale(1.5,1.5);
+    transition: 2s;
+
+  } 
+ 
+ 
+
+@media  screen and (min-width:0px) and (max-width:375px) {
+      
+    .items{
+
+  
+        display: flex;
+        flex-direction: column;
+        
+        flex-wrap: wrap;
+        gap:50px;
+        /* justify-content: center; */
+    }
+    
+
+    .div1{
+        background-color: rgba(243, 237, 237, 0.725);
+        width:80vw;
+        height: 40vh;
+        text-align: center;
+       
+        
+    }
+
+    .input_view_products{
+        width:40%;
+        padding: 10px;
+         margin-top: 40px;
+        margin-left: 90px; 
+        border-radius: 50px;
+     
+     
+       font-size:13px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:white;
+        background-color: rgb(249, 108, 108);
+     box-shadow: 10px 10px 10px rgb(239, 168, 168);
+     border-color: azure;
+     
+        
+      }
+
+     
+      
+    
+    
+}
+
+
+@media  screen and (min-width:375px) and (max-width:768px) {
+      
+    .items{
+
+  
+        display: flex;
+        
+        
+        flex-wrap: wrap;
+        gap:20px;
+        justify-content: center;
+    }
+    
+
+    .div1{
+        background-color: rgba(243, 237, 237, 0.725);
+        width:40vw;
+        height: 40vh;
+        
+       
+        
+    }
+
+    .input_view_products{
+        width:40%;
+        padding: 10px;
+         margin-top: 40px;
+        margin-left: 140px; 
+        border-radius: 50px;
+     
+     
+       font-size:15px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:white;
+        background-color: rgb(249, 108, 108);
+     box-shadow: 10px 10px 10px rgb(239, 168, 168);
+     border-color: rgb(252, 245, 240);
+     
+        
+      }
+    
+    
+}
+
+/* latest products ends on */
+
+.section_imgpara{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+
+    gap: 500px;
+
+
+    position: relative;
+    top:300px;
+
+    margin-left: 320px;
+
+  
+
+}
+
+.image{
+    width:500%;
+    height: 80%;
+    border: 2px solid black;
+    background-image: url(./assests/images/about-img.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+
+}
+
+.box1 {
+    
+    position: relative;
+    z-index: 2;
+    border: solid;
+    height: 180px;
+    margin: 50px;
+    width: 200%;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    top:-350px;
+    right: 80px;
+
+  }
+
+  .lorem_div{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+  }
+
+  .lorem_div .lorem_matter{
+    width:80%;
+    font-size:20px;
+  }
+
+
+.lorem_button{
+    width:50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(237, 232, 232);
+    background-color: orange;
+    border-radius: 2px;
+}
+
+.lorem_div h1{
+    font-size: 50px;
+}
+
+@media screen and (min-width:0px) and (max-width:375px) {
+
+    .section_imgpara{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+    
+        gap: 10px;
+    
+    
+        position: relative;
+        top:200px;
+    
+        margin-left: 30px;
+    
+      
+    
+    }
+    
+    .image{
+        width:130%;
+        height:50vw ;
+        border: 2px solid black;
+        background-image: url("./assests/images/about-img.jpg");
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+        right:50px;
+    
+    }
+    
+    .box1 {
+        
+        position: relative;
+        z-index: 2;
+        border: solid;
+        height: 130px;
+      
+        width: 100%;
+        background-color: black;
+        position: relative;
+        z-index: 1;
+        top:-250px;
+        right: 120px;
+    
+      }
+    
+      .lorem_div{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        justify-content: center;
+        position: relative;
+        top:-150px;
+      }
+    
+      .lorem_div .lorem_matter{
+        width:120%;
+        font-size:20px;
+      }
+    
+    
+    .lorem_button{
+        width:50%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: rgb(237, 232, 232);
+        background-color: rgb(241, 76, 76);
+        border-radius: 2px;
+    }
+    
+    
+}
+
+
+@media screen and (min-width:375px) and (max-width:475px) {
+
+    .section_imgpara{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+    
+        gap: 10px;
+    
+    
+        position: relative;
+        top:200px;
+    
+        margin-left: 30px;
+    
+      
+    
+    }
+    
+    .image{
+        width:130%;
+        height:50vw ;
+        border: 2px solid black;
+        background-image: url("./assests/images/about-img.jpg");
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+        right:50px;
+    
+    }
+    
+    .box1 {
+        
+        position: relative;
+        z-index: 2;
+        border: solid;
+        height: 130px;
+      
+        width: 100%;
+        background-color: black;
+        position: relative;
+        z-index: 1;
+        top:-300px;
+        right: 120px;
+    
+      }
+    
+      .lorem_div{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        justify-content: center;
+        position: relative;
+        top:-150px;
+      }
+    
+      .lorem_div .lorem_matter{
+        width:110%;
+        font-size:20px;
+      }
+    
+    
+    .lorem_button{
+        width:50%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: rgb(237, 232, 232);
+        background-color: rgb(241, 76, 76);
+        border-radius: 2px;
+    }
+    
+    
+}
+
+
+
+
+@media screen and (min-width:475px) and (max-width:1024px) {
+
+    .section_imgpara{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+    
+        gap: 10px;
+    
+    
+        position: relative;
+        top:200px;
+    
+        margin-left: 100px;
+    
+      
+    
+    }
+    
+    .image{
+        width:80%;
+        height:40vw ;
+        border: 2px solid black;
+        background-image: url("./assests/images/about-img.jpg");
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+        right:50px;
+    
+    }
+    
+    .box1 {
+        
+        position: relative;
+        z-index: 2;
+        border: solid;
+        height: 170px;
+      
+        width: 80%;
+        background-color: black;
+        position: relative;
+        z-index: 1;
+        top:-380px;
+        right: 120px;
+    
+      }
+    
+      .lorem_div{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        justify-content: center;
+        position: relative;
+        top:-150px;
+      }
+    
+      .lorem_div .lorem_matter{
+        width:100%;
+        font-size:20px;
+      }
+    
+    
+    .lorem_button{
+        width:50%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: rgb(237, 232, 232);
+        background-color: rgb(241, 76, 76);
+        border-radius: 2px;
+    }
+    
+    
+}
+
+/* end of the loreum */
+
+
+/* catlog starts now */
+
+.catlog_images{
+
+    position: relative;
+    top:300px;
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+
+
+}
+
+
+.catlog_image1{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+
+}
+
+.img_1{
+    background-image: url("./assests/images/o1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 60vw;
+    height: 95vh;
+    padding: 50px;
+    
+
+}
+
+
+.img_2{
+    background-image: url("./assests/images/o2.jpg");
+    background-size: cover;
+    width: 40vw;
+    height: 40vh;
+    padding: 50px;
+}
+
+
+.img_3{
+    background-image: url("./assests/images/o3.jpg");
+    background-size: cover;
+    width: 40vw;
+    height: 50vh;
+    padding: 50px;
+
+
+
+
+
+
+}
+
+.img_1 h2{
+    color:aliceblue;
+    font-size: 300%;
+    
+}
+
+.img_1 a{
+    text-decoration: none;
+    text-align: center;
+    width: 50%;
+    font-size: 200%;
+    border:2px solid;
+    border-color: aliceblue;
+    color:rgb(240, 134, 85);
+    transform: scale(2,2);
+    transition: 2s;
+   position: relative;
+   top:20px;
+}
+
+
+
+.img_2 h2{
+    color:aliceblue;
+    font-size: 200%;
+    
+}
+
+.img_2 a{
+    text-decoration: none;
+    text-align: center;
+    width: 50%;
+    font-size: 200%;
+    border:2px solid;
+    border-color: aliceblue;
+    color:rgb(240, 134, 85);
+    transform: scale(2,2);
+    transition: 2s;
+    position: relative;
+    top:20px;
+}
+
+
+
+
+.img_3 h2{
+    color:aliceblue;
+    font-size: 200%;
+    
+}
+
+.img_3 a{
+    text-decoration: none;
+    text-align: center;
+    width: 50%;
+    font-size: 200%;
+    border:2px solid;
+    border-color: aliceblue;
+    color:rgb(240, 134, 85);
+    transform: scale(2,2);
+    transition: 2s;
+    position: relative;
+    top:20px;
+    border-color:wheat;
+}
+
+
+.img_1>a:hover{
+    background-color: rgb(232, 118, 86);
+    color: aliceblue;
+   
+}
+
+
+.img_2>a:hover{
+    background-color: rgb(232, 118, 86);
+    color: aliceblue;
+   
+}
+
+
+
+.img_3>a:hover{
+    background-color: rgb(232, 118, 86);
+    color: aliceblue;
+
+   
+}
+
+
+@media screen and (min-width:0px) and (max-width:475px){
+
+    .catlog_images{
+
+        position: relative;
+        top:300px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 30px;
+    
+    
+    }
+   
+    .img_1{
+        background-image: url("./assests/images/o1.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 76vw;
+        height: 50vh;
+        padding: 10px;
+        
+    
+    }
+
+    
+.img_2{
+    background-image: url("./assests/images/o2.jpg");
+    background-size: cover;
+    background-position:center ;
+    width: 80vw;
+    height: 40vh;
+    padding:5px;
+}
+
+
+.img_3{
+    background-image: url("./assests/images/o3.jpg");
+    background-size: cover;
+    background-position:center ;
+    width: 80vw;
+    height: 40vh;
+    padding: 5px;
+}
+
+
+.img_2 h2{
+    color:aliceblue;
+    font-size: 150%;
+    
+}
+
+.img_3 h2{
+    color:aliceblue;
+    font-size: 150%;
+    
+}
+    
+}
+
+
+
+@media screen and (min-width:475px) and (max-width:768px){
+
+    .catlog_images{
+
+        position: relative;
+        top:300px;
+        display: flex;
+        /* flex-direction: column; */
+        gap: 10px;
+        padding: 30px;
+    
+    
+    }
+   
+    .img_1{
+        background-image: url("./assests/images/o1.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 80vw;
+        height: 85vh;
+        padding: 10px;
+        
+    
+    }
+
+    
+.img_2{
+    background-image: url("./assests/images/o2.jpg");
+    background-size: cover;
+    background-position:center ;
+    width: 50vw;
+    height: 40vh;
+    padding:5px;
+}
+
+
+.img_3{
+    background-image: url("./assests/images/o3.jpg");
+    background-size: cover;
+    background-position:center ;
+    width: 50vw;
+    height: 40vh;
+    padding: 5px;
+}
+
+
+.img_2 h2{
+    color:aliceblue;
+    font-size: 150%;
+    
+}
+
+.img_3 h2{
+    color:aliceblue;
+    font-size: 150%;
+    
+}
+    
+}
+
+
+/* card */
+
+.div_card{
+    position: relative;
+    top:400px;
+    padding: 30px;
+    display: flex;
+    gap:80px;
+    justify-content: center;
+}
+
+.card{
+    width:30vw;
+}
+
+
+.card_button1{
+    text-decoration: none;
+    border: 2px solid;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+
+} 
+
+
+.card_button2{
+    text-decoration: none;
+    border: 2px solid;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+
+} 
+
+
+.card_button1:hover{
+    background-color: rgba(14, 14, 14, 0.589);
+}
+
+
+.card_button2:hover{
+    background-color: rgba(14, 14, 14, 0.589);
+}
+
+
+@media screen  and (min-width:0px) and (max-width:475px){
+
+    .div_card{
+       
+        position: relative;
+        top:400px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap:80px;
+        justify-content: center;
+    
+    
+}
+
+.card{
+    width:80vw;
+}
+
+
+
+
+}
+
+
+
+/* footer */
+
+
+.footer{
+    background-color: black;
+    position: relative;
+    padding: 20px;
+    top:400px;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.bar{
+    display: flex;
+}
+
+.searchbar{
+    padding:18px;
+    text-align: left;
+    width: 500%;
+    height: 40px;
+    border-radius: 20px;
+   
+}
+
+
+.iconline{
+
+    
+    position: relative;
+    right:70px;
+    top:-50px;
+    
+    
+    
+}
+
+.iconline:hover{
+
+    background-color:;
+    
+}
+
+.info_detail{
+    
+    position: relative;
+    top:-50px;
+}
+
+.info_detail>h4{
+    color: rgb(104, 178, 243);
+    font-size: 70px;
+}
+
+
+.info_detail p{
+   color: aliceblue;
+   font-size: 100%;
+}
+
+
+
+.Contact{
+    color: rgb(78, 159, 230);
+    font-size: 30px;
+}
+
+.info_contact{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+
+
+.a_location{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.a_location:hover{
+    color: rgb(235, 117, 53);
+}
+
+
+.a_phone{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.a_phone:hover{
+    color: rgb(235, 117, 53);
+}
+
+
+.a_email{
+
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+
+}
+
+
+
+.a_email:hover{
+    color: rgb(235, 117, 53);
+}
+
+
+@media screen and (min-width:0px) and (max-width:320px){
+    .searchbar{
+        padding:10px;
+       
+        width: 500%;
+        height: 40px;
+        border-radius: 20px;
+       position: relative;
+       left:20px;
+    }
+
+
+    
+.footer{
+    background-color: black;
+    position: relative;
+    padding: 20px;
+    top:400px;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:768px){
+    .searchbar{
+        padding:10px;
+       
+        width: 500%;
+        height: 40px;
+        border-radius: 20px;
+       position: relative;
+       left:20px;
+    }
+
+
+    
+.footer{
+    background-color: black;
+    position: relative;
+    padding: 20px;
+    top:400px;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    .searchbar{
+        padding:10px;
+       
+        width: 500%;
+        height: 40px;
+        border-radius: 20px;
+       position: relative;
+       left:20px;
+    }
+
+
+    
+.footer{
+    background-color: black;
+    position: relative;
+    padding: 20px;
+    top:400px;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+}
+
+
+
+/* the end */
+
+
+
+
