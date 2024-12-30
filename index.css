@@ -327,7 +327,7 @@
 .div1 .img7 {
     
     padding:10px;
-   width:12%;
+   width:10%;
 }
 
 .div1 .img8 {
@@ -476,7 +476,13 @@ box-shadow: 10px 10px 10px rgb(239, 168, 168);
         
        
         
-    }    
+    }   
+    
+    .div1 .img7 {
+    
+        padding:10px;
+       width:20%;
+    }
  
 
     
@@ -486,7 +492,7 @@ box-shadow: 10px 10px 10px rgb(239, 168, 168);
         width:40%;
         padding: 10px;
          margin-top: 40px;
-        margin-left: 120px; 
+        margin-left: 80px; 
         border-radius: 50px;
      
      
